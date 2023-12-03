@@ -3,8 +3,8 @@ import { Configuration,  OpenAIApi } from "openai";
 import readline from 'readline';
 
 const Config = new Configuration({
-    organization: "org-Ef36CYnLzWTxXThwTgHu43fv",
-    apiKey: "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"
+    organization: "",
+    apiKey: ""
 });
 
 const openai= new OpenAIApi(Config);
